@@ -9,6 +9,6 @@ RUN npm install
 RUN npm run build
 USER app
 
-EXPOSE 3000
+EXPOSE 3010
 
 CMD ["npm", "run", "start:prod"]
