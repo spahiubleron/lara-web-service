@@ -5,7 +5,7 @@ RUN mkdir -p /opt/app
 WORKDIR /opt/app
 RUN adduser -S app
 COPY ./ /opt/app
-RUN npm install
+RUN npm install --legacy-peer-deps
 RUN npm run build
 USER app
 
