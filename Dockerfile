@@ -1,4 +1,3 @@
-# FROM --platform=linux/arm64 node:lts-alpine
 FROM node:lts-alpine
 
 RUN mkdir -p /opt/app
